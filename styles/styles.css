@@ -21,7 +21,8 @@ h3 {
   font-size: 1.5rem;
   line-height: 2.25rem;
   font-weight: 700;
-  color: rgba(13, 19, 33, 0.7);;
+  color: rgba(13, 19, 33, 0.7);
+  margin: 0;
 }
 
 h4 {
@@ -133,6 +134,12 @@ h1 {
     align-items: center;
     text-align: center;
     background-color: #fafafb;
+    margin-top: 75px;
+}
+
+.about .description {
+    width: 852px;
+    margin-bottom: 48px;
 }
 
 .features {
@@ -144,18 +151,62 @@ h1 {
     text-align: center;
 }
 
-.features div {
-    width: 946px;
-    display: flex;
-    justify-content: space-between;
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
 }
 
-.features div div {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: left;
+.features .verse,
+.features .reverse {
+  width: 946px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* ✅ এটাতেই image আর text এক height-এ বসবে */
+  padding: 48px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  border-radius: 12px;
+  gap: 40px;
 }
+
+.features .reverse {
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.features img {
+  max-width: 274.17px;
+  max-height: 240px;
+  flex-shrink: 0;
+}
+
+.features .verse div,
+.features .reverse div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 20px;
+}
+
+
+.verse-btn {
+    font-family: "Azeret Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: auto;
+    border: #0D1321 1px solid;
+    padding: 12px 20px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+
+
+
+
 
 
 
