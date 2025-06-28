@@ -1,0 +1,161 @@
+/* Global styles Start */
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  font-family: "Azeret Mono", monospace;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: auto;
+  font-weight: 800;
+  color: #0D1321;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+  color: #0D1321;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  color: #0D1321;
+}
+
+/* Global styles End */
+
+
+/* Header styles Start */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 35px 150px;
+}
+
+.header a button {
+  background-color: transparent;
+  font-family: "Azeret Mono", monospace;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0D1321;
+  padding: 17px 24px;
+  border: #0D1321 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Header styles End */
+
+/* Main styles Start */
+/* Hero section styles Start */
+
+.hero {
+  background-image: url(../assets/Hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 652px;
+  padding: 60px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 4.25rem;
+  font-weight: 900;
+  color: #0D1321;
+  margin: 0;
+}
+
+.hero .description {
+  max-width: 852px;
+  line-height: 1.6;
+  margin: 24px 0;
+}
+
+.hero a button {
+  background-color: transparent;
+  font-family: "Azeret Mono", monospace;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #0D1321;
+  color: #ffffff;
+  padding: 17px 24px;
+  border: #0D1321 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.hero a button:hover {
+  background-color: transparent;
+  color: #0D1321;
+  border: 1px solid #0D1321;
+  transform: translateY(-2px); /* Optional: light bounce */
+  box-shadow: 0 4px 12px rgba(13, 19, 33, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hero section styles End */
+
+/* About section styles Start */
+
+.about {
+    width: 1144px;
+    margin: 0 auto;
+    padding: 80px 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fafafb;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features div {
+    width: 946px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features div div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+
+
