@@ -245,7 +245,6 @@ h1 {
   padding-bottom: 150;
   max-width: 1140px;
   margin: 0 auto;
-  margin-bottom: 110px;
 }
 
 .target > div {
@@ -260,7 +259,7 @@ h1 {
 .target .js {
   max-width: 364px;
   max-height: 299px;
-  margin: 0 auto;
+  margin: 20px auto;
   flex: 1 1 30%;
   border-radius: 24px;
   padding: 40px 24px;
@@ -328,10 +327,62 @@ h1 {
 
 /* My Target section styles End */
 
+/* My Next section styles Start */
+
+.next-target {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 150;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+
+
+
+.reactjs,
+.nodejs,
+.mongodb {
+  display: flex;
+  justify-content: left;
+  gap: 24px;
+  align-items: center;
+  text-align: left;
+  padding: 40px;
+  border: #c0c0c0 1px solid;
+  border-radius: 16px;
+  margin: 24px auto;
+}
+
+
+.reactjs h4,
+.nodejs h4,
+.mongodb h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+/* Button styling */
+.next-target-btn {
+  background: none;
+  border: none;
+  color: #0D1321;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+/* My Next section styles End */
+
 /* Newslatter section styles start */
 
 .newslatter {
-  max-width: 1140px;
+  max-width: 1040px;
   max-height: 313px;
   margin: 0 auto;
   background: 
@@ -368,6 +419,43 @@ input[type="email"] {
   border: none;
   border-radius: 8px;
 }
+
+
+/* Newslatter section styles End */
+
+/* Footer section styles start */
+
+.footer {
+  background-color: #F7F8F8;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Only for icons */
+.footer-icon {
+  display: flex;
+  gap: 16px; /* icon গুলোর মাঝে ফাঁকা */
+  align-items: center;
+}
+
+.footer-icon img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon img:hover {
+  transform: scale(1.1);
+}
+
 
 
 
