@@ -200,7 +200,173 @@ h1 {
     padding: 12px 20px;
     background-color: transparent;
     cursor: pointer;
+}
 
+/* About section styles End */
+
+
+/* Inspiration section styles start */
+
+.inspiration {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 150;
+}
+
+.inspiration .description {
+  width: 852px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+
+.inspiration iframe {
+  border: none;
+  border-radius: 16px;
+}
+
+.video-wrapper {
+  border-radius: 16px;
+  padding: 32px;
+  border: rgba(13, 19, 33, 0.2) 1px solid;
+}
+
+/* Inspiration section styles End */
+
+/* My Target section styles start */
+
+.target {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 150;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+
+.target > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+
+.target .html,
+.target .css,
+.target .js {
+  max-width: 364px;
+  max-height: 299px;
+  margin: 0 auto;
+  flex: 1 1 30%;
+  border-radius: 24px;
+  padding: 40px 24px;
+  text-align: left;
+  color: #0D1321;
+  transition: transform 0.2s ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03);
+}
+
+/* Individual background colors */
+.target .html {
+  background-color: #FFF3F0; /* light peach */
+}
+
+.target .css {
+  background-color: #F0F5FF; /* light blue */
+}
+
+.target .js {
+  background-color: #FFFCEB; /* light yellow */
+}
+
+/* Icon styling */
+.target img {
+  width: 60px;
+  margin-bottom: 16px;
+}
+
+/* Heading (tech name) */
+.target h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Paragraph text */
+.target > div > div > .description {
+  max-width: 384px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Button styling */
+.target button {
+  background: none;
+  border: none;
+  color: #0D1321;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Hover effect (optional) */
+.target .html:hover,
+.target .css:hover,
+.target .js:hover {
+  transform: translateY(-5px);
+}
+
+/* My Target section styles End */
+
+/* Newslatter section styles start */
+
+.newslatter {
+  max-width: 1140px;
+  max-height: 313px;
+  margin: 0 auto;
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/handshake.jpg) no-repeat center center;
+  background-position: center;
+  padding: 64px 48px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.newslatter h2 {
+  color: #ffffff;
+}
+
+.newslatter .description {
+  color: #ffffff;
+}
+
+
+input[type="email"] {
+  width: 400px;
+  padding: 16px 20px;
+  font-family: "Azeret Mono", monospace;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn {
+  padding: 16px 20px;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
 }
 
 
